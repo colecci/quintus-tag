@@ -9,7 +9,7 @@ Q.gravityY = 0;
 require(['socket.io/socket.io.js']);
 
 var players = [];
-var socket = io.connect('http://104.167.115.218:8080');
+var socket = io.connect('https://cci-platformer.herokuapp.com');
 var UiPlayers = document.getElementById("players");
 var selfId, player;
 
